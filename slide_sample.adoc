@@ -1,0 +1,21 @@
+= Title of Presentation 
+Presenter Name
+:backend: deckjs
+:deckjs_transition: fade
+:navigation:
+
+== Title of Slide One 
+
+This is the first slide after the title slide.
+
+== Slide Two
+
+* slide two
+
+==  Slide Three
+
+Math
+
+$$
+A= \sum x_i
+$$
