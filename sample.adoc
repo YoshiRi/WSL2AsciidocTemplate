@@ -49,3 +49,11 @@ Overflow;;		指定した数値が-32768 ～ 32767を超えている
 10 IF INKEY() = 32 TONE 800,50
 20 GOTO 10
 ----
+
+==  Equation
+
+This is an inline equation: \(a^2+b^2=c^2\).
+
+Block
+
+\[k_{n+1} = n^2 + k_n^2 - k_{n-1}\]

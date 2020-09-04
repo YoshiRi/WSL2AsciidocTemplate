@@ -1,21 +1,50 @@
-= Title of Presentation 
-Presenter Name
-:backend: deckjs
-:deckjs_transition: fade
-:navigation:
+= Title slide
+:source-highlighter: coderay
+:revealjs_slideNumber: true
+
 
 == Title of Slide One 
 
-This is the first slide after the title slide.
+Test ::
+* Itemize
+** Nest
 
 == Slide Two
 
-* slide two
 
-==  Slide Three
+[%step]
+* this
+* is
+* revealed
+* gradually
 
-Math
 
-$$
-A= \sum x_i
-$$
+==  Equation
+
+This is an inline equation: \(a^2+b^2=c^2\).
+
+Block
+
+\[k_{n+1} = n^2 + k_n^2 - k_{n-1}\]
+
+== Main section
+
+=== Sub Section
+
+Small +
+Multiline +
+intro
+
+. very
+. long
+. list
+. of
+. items
+
+ifdef::backend-revealjs[=== !]
+
+Some overview diagram
+
+ifdef::backend-revealjs[=== !]
+
+Detailed view diagram

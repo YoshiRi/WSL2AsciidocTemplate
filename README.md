@@ -70,5 +70,18 @@ https://qiita.com/aki-nasu/items/da7c230e369b11b9ba11
 - Complete command is following
 
 ```
-wsl docker run -it -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-revealjs slide_sample.adoc
+wsl docker run -it -v $(pwd):/documents/ asciidoctor/docker-asciidoctor asciidoctor-revealjs -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.9.2 slide_sample.adoc
 ```
+
+
+## Math Equation
+
+```
+wsl docker run -it -v $(pwd):/documents/ asciidoctor/docker-asciidoctor  asciidoctor -r asciidoctor-mathematical sample.adoc
+```
+
+
+```
+wsl docker run -it -v $(pwd):/documents/ asciidoctor/docker-asciidoctor  asciidoctor-pdf -r asciidoctor-mathematical -o sample.pdf sample.adoc
+```
+
