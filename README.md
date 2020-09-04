@@ -5,6 +5,7 @@ Asciidoc Documentation with WSL2 and Docker
 - Docker on WSL2 （≠ Docker for windows）
   - Ubuntu 20
   - Docker Version
+  - [asciidoctor/docker-asciidoctor](https://github.com/asciidoctor/docker-asciidoctor)
   
 ``` CMD
 > wsl docker version
@@ -18,17 +19,17 @@ Client: Docker Engine - Community
  Experimental:      false
 ```
 
+**参考になる文献**
+- http://www.venus.dti.ne.jp/~iisaka/DocSys/
+
 # 準備
 
 -  WSL2 から DOSファイルアクセス：/mnt/
 https://qiita.com/Uchitaso/items/6e0a7859e87bb8bdb527
-
-- Windows からWSL2を呼ぶ：wsl hogefuga
-
+- Windows からWSL2を呼ぶ：`wsl <Linux Command>`
 
 
-
-## Ubunntu 環境でのInstallation
+## Ubunntu 環境でのAsciidoc for Docker Installation
  
 - Installation
 ```
