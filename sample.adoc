@@ -1,3 +1,5 @@
+
+
 // ドキュメントヘッダ
 = タイトル
 著者の名前(省略可)<メールアドレス(省略可能)>
@@ -6,6 +8,7 @@
 :Email:     <著者のメールアドレスの別の記述方法>
 :Date:      作成日を別の記述方法
 :Revision:  バージョンの別の記述方法
+:toc: left
 
 https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation/[文法簡易リファレンスはこちら]
 
